@@ -37,7 +37,6 @@
 								<li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Intro</span></a></li>
 								<li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Portfolio</span></a></li>
 								<li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">About Me</span></a></li>
-								<li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contact</span></a></li>
 							</ul>
 						</nav>
 
@@ -67,16 +66,16 @@
 
 							<div id="wnd"></div>
 <textarea id="consolemsg" style="display:none;" rows="11" cols="50">
-% cat example.c
-#include <stdio.h>
-int main()
-{
-printf("Hello World!\n");
-return 0;
-}
-% make example.c -o example
-% ./example
+% git init
+Initialized empty Git repository in /BochengYang/life/.git/
+% echo "Hello World!" > README.md & cat README.md
 Hello World!
+% git add & git commit -m "Start my life"
+[master (root-commit) 629c9ef] Start my life
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 README.md
+% git push world master
+Everything up-to-date
 </textarea>
 
 						</div>
@@ -199,35 +198,6 @@ Hello World!
 							parturient nulla quam placerat viverra mauris non cum elit tempus ullamcorper
 							dolor. Libero rutrum ut lacinia donec curae mus vel quisque sociis nec
 							ornare iaculis.</p>
-
-						</div>
-					</section>
-
-				<!-- Contact -->
-					<section id="contact" class="four">
-						<div class="container">
-
-							<header>
-								<h2>Contact</h2>
-							</header>
-
-							<p>Elementum sem parturient nulla quam placerat viverra
-							mauris non cum elit tempus ullamcorper dolor. Libero rutrum ut lacinia
-							donec curae mus. Eleifend id porttitor ac ultricies lobortis sem nunc
-							orci ridiculus faucibus a consectetur. Porttitor curae mauris urna mi dolor.</p>
-
-							<form method="post" action="#">
-								<div class="row">
-									<div class="6u 12u$(mobile)"><input type="text" name="name" placeholder="Name" /></div>
-									<div class="6u$ 12u$(mobile)"><input type="text" name="email" placeholder="Email" /></div>
-									<div class="12u$">
-										<textarea name="message" placeholder="Message"></textarea>
-									</div>
-									<div class="12u$">
-										<input type="submit" value="Send Message" />
-									</div>
-								</div>
-							</form>
 
 						</div>
 					</section>
