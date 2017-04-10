@@ -1,12 +1,12 @@
 #wnd {
-  background: #141414;
+  background: rgba(24,24,24,0.8);
   border-radius: .2em;
   white-space: pre-wrap;
   padding: .5em;
   font-family: "Consolas", "Ubuntu Mono", "Monaco", monospace;
   text-align: left;
   color: white;
-  height: 400px;
+  height: 500px;
 }
 .prompt {
   color: #99aaee;
