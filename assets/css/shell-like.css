@@ -1,0 +1,16 @@
+#wnd {
+  background: #141414;
+  border-radius: .2em;
+  white-space: pre-wrap;
+  padding: .5em;
+  font-family: "Consolas", "Ubuntu Mono", "Monaco", monospace;
+  text-align: left;
+  color: white;
+  height: 400px;
+}
+.prompt {
+  color: #99aaee;
+}
+.cmd {
+  color: #9e9e9C;
+}

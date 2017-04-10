@@ -6,11 +6,13 @@
 -->
 <html>
 	<head>
-		<title>Prologue by HTML5 UP</title>
+		<title>Bocheng Yang's Page</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/horizontal-timeline.css" />
+		<link rel="stylesheet" href="assets/css/shell-like.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 	</head>
@@ -23,26 +25,14 @@
 
 					<!-- Logo -->
 						<div id="logo">
-							<span class="image avatar48"><img src="images/avatar.jpg" alt="" /></span>
-							<h1 id="title">Jane Doe</h1>
-							<p>Hyperspace Engineer</p>
+							<span class="image avatar96"><img src="images/avatar.jpg" alt="" /></span>
+							<h1 id="title">Bocheng Yang</h1>
+							<p>Tech Maniac 	&amp; Software Engineer</p>
+							<!--<p><a href="index-zhTW.html">中文版</a></p>-->
 						</div>
 
 					<!-- Nav -->
 						<nav id="nav">
-							<!--
-
-								Prologue's nav expects links in one of two formats:
-
-								1. Hash link (scrolls to a different section within the page)
-
-								   <li><a href="#foobar" id="foobar-link" class="icon fa-whatever-icon-you-want skel-layers-ignoreHref"><span class="label">Foobar</span></a></li>
-
-								2. Standard link (sends the user to another page/site)
-
-								   <li><a href="http://foobar.tld" id="foobar-link" class="icon fa-whatever-icon-you-want"><span class="label">Foobar</span></a></li>
-
-							-->
 							<ul>
 								<li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Intro</span></a></li>
 								<li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Portfolio</span></a></li>
@@ -57,11 +47,11 @@
 
 					<!-- Social Icons -->
 						<ul class="icons">
-							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
-							<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-							<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
+							<!--<li><a href="https://twitter.com/YangBocheng" class="icon fa-twitter"><span class="label">Twitter</span></a></li>-->
+							<li><a href="https://www.facebook.com/goatman.bocheng.yang" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a href="https://www.linkedin.com/in/bocheng-yang-1297a89b/" class="icon fa-linkedin"><span class="label">Facebook</span></a></li>
+							<li><a href="https://github.com/bochengyang" class="icon fa-github"><span class="label">Github</span></a></li>
+							<li><a href="mailto:bocheng.yang@gmail.com?subject=Greeting from Bocheng Yang's page" class="icon fa-envelope"><span class="label">Email</span></a></li>
 						</ul>
 
 				</div>
@@ -75,18 +65,61 @@
 					<section id="top" class="one dark cover">
 						<div class="container">
 
-							<header>
-								<h2 class="alt">Hi! I'm <strong>Prologue</strong>, a <a href="http://html5up.net/license">free</a> responsive<br />
-								site template designed by <a href="http://html5up.net">HTML5 UP</a>.</h2>
-								<p>Ligula scelerisque justo sem accumsan diam quis<br />
-								vitae natoque dictum sollicitudin elementum.</p>
-							</header>
-
-							<footer>
-								<a href="#portfolio" class="button scrolly">Magna Aliquam</a>
-							</footer>
+							<div id="wnd"></div>
+<textarea id="consolemsg" style="display:none;" rows="11" cols="50">
+% cat example.c
+#include <stdio.h>
+int main()
+{
+printf("Hello World!\n");
+return 0;
+}
+% make example.c -o example
+% ./example
+Hello World!
+</textarea>
 
 						</div>
+					</section>
+
+				<!-- Timeline -->
+					<section class="cd-horizontal-timeline">
+						<div class="timeline">
+							<div class="events-wrapper">
+								<div class="events">
+									<ol>
+										<li><a href="#0" data-date="16/01/2014" class="selected">16 Jan</a></li>
+										<li><a href="#0" data-date="28/02/2014">28 Feb</a></li>
+										<!-- other dates here -->
+									</ol>
+					
+									<span class="filling-line" aria-hidden="true"></span>
+								</div> <!-- .events -->
+							</div> <!-- .events-wrapper -->
+								
+							<ul class="cd-timeline-navigation">
+								<li><a href="#0" class="prev inactive">Prev</a></li>
+								<li><a href="#0" class="next">Next</a></li>
+							</ul> <!-- .cd-timeline-navigation -->
+						</div> <!-- .timeline -->
+					
+						<div class="events-content">
+							<ol>
+								<li class="selected" data-date="16/01/2014">
+									<h2>Horizontal Timeline</h2>
+									<em>January 16th, 2014</em>
+									<p>	
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+									</p>
+								</li>
+					
+								<li data-date="28/02/2014">
+									<!-- event description here -->
+								</li>
+					
+								<!-- other descriptions here -->
+							</ol>
+						</div> <!-- .events-content -->
 					</section>
 
 				<!-- Portfolio -->
@@ -212,13 +245,25 @@
 			</div>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/jquery.scrollzer.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/skel/3.0.1/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/horizontal-timeline.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/q.js/1.5.0/q.js"></script>
+			<script src="assets/js/shell-like.js"></script>
+			<script>
+				(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+				})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+				ga('create', 'UA-43173063-4', 'auto');
+				ga('send', 'pageview');
+			</script>
 
 	</body>
 </html>
