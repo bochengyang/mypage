@@ -114,6 +114,24 @@
 					$('#headerToggle, #header, #main')
 						.css('transition', 'none');
 
+		// Banner
+
+			// Check width and display them
+
+			toggleBannerDisplay();
+			window.onresize = function() {
+				toggleBannerDisplay();
+			}
+
+			function toggleBannerDisplay() {
+				if (window.innerWidth < 750) {
+					document.getElementById('wnd').style.display = 'none';    
+				}
+				else {
+					document.getElementById('wnd').style.display = 'block';             
+				}    
+			}
+
 	});
 
 })(jQuery);

@@ -1,0 +1,28 @@
+.skill-section .sepA {
+  background-color: #333;
+}
+.skill-section .sepB {
+  background-color: #888;
+}
+.skill-section .skill-block {
+  height: 200px;
+}
+.skill-section .skill-block .fill-div {
+  float: left;
+  display: block;
+  height: inherit;
+  text-decoration: none;
+  position: relative;
+  transition: all, 0.2s;
+  border: none;
+}
+@media (hover: hover) {
+  .skill-section .skill-block:hover {
+    -moz-transform: scale(1.1, 1.1);
+    -ms-transform: scale(1.1, 1.1);
+    -webkit-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
+    transition: all, 0.2s;
+    z-index: 100000;
+  }
+}
