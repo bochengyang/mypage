@@ -1,6 +1,6 @@
 (function($) {
     jQuery(document).ready(function($){
-        var timelines = $('.cd-horizontal-timeline'),
+        var timelines = $('.horizontal-timeline'),
             eventsMinDistance = 60;
 
         (timelines.length > 0) && initTimeline(timelines);
@@ -264,7 +264,7 @@
 
         function checkMQ() {
             //check if mobile or desktop device
-            return window.getComputedStyle(document.querySelector('.cd-horizontal-timeline'), '::before').getPropertyValue('content').replace(/'/g, "").replace(/"/g, "");
+            return window.getComputedStyle(document.querySelector('.horizontal-timeline'), '::before').getPropertyValue('content').replace(/'/g, "").replace(/"/g, "");
         }
     });
 })(jQuery);
