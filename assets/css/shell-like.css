@@ -9,6 +9,19 @@
   height: 500px;
   font-size: 70%;
 }
+
+@media screen and (min-width: 1320px) {
+  #wnd {
+    height: 520px;
+  }
+}
+
+@media screen and (min-width: 1880px) {
+  #wnd {
+    height: 590px;
+  }
+}
+
 .prompt {
   color: #99aaee;
 }

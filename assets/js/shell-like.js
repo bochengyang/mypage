@@ -30,13 +30,13 @@ function addInput(s) {
 
 function addPrompt() {
     var l = $('<div>').text(prompt).addClass('prompt').appendTo(wnd);
-    return Q.delay(900);
+    return Q.delay(200);
 }
 
 function addLettersRecursive(container, s) {
     container.append(s.charAt(0)); // dangerous :(
     var row_complete = Q.defer();
-    Q.delay(100).then(function() {
+    Q.delay(50).then(function() {
         if (s.length <= 1) {
             row_complete.resolve();
         }
